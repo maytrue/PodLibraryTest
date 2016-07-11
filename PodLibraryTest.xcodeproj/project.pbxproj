@@ -14,7 +14,7 @@
 /* Begin PBXFileReference section */
 		E7F7F8961D334AE000C34AC2 /* libPodLibraryTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPodLibraryTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F7F89D1D334B1200C34AC2 /* SimplePod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplePod.cpp; sourceTree = "<group>"; };
-		E7F7F89E1D334B1200C34AC2 /* SimplePod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimplePod.hpp; sourceTree = "<group>"; };
+		E7F7F89E1D334B1200C34AC2 /* SimplePod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SimplePod.hpp; path = ../SimplePod.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,8 +31,8 @@
 		E7F7F88D1D334AE000C34AC2 = {
 			isa = PBXGroup;
 			children = (
+				E7F7F8A11D3378CA00C34AC2 /* Include */,
 				E7F7F89D1D334B1200C34AC2 /* SimplePod.cpp */,
-				E7F7F89E1D334B1200C34AC2 /* SimplePod.hpp */,
 				E7F7F8971D334AE000C34AC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +43,14 @@
 				E7F7F8961D334AE000C34AC2 /* libPodLibraryTest.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F7F8A11D3378CA00C34AC2 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				E7F7F89E1D334B1200C34AC2 /* SimplePod.hpp */,
+			);
+			path = Include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = Include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +221,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = Include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +245,7 @@
 				E7F7F89C1D334AE000C34AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
