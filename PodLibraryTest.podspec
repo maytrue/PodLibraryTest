@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT (example)"
   s.author       = { "guowei" => "guowzou@gmail.com" }
   s.source       = { :git => "https://github.com/maytrue/PodLibraryTest.git", :tag => "v2.0" }
-  s.source_files = "*.h"
+  s.source_files = "Include/*.h"
   s.vendored_libraries  = 'Library/libPodLibraryTest.a'
 end
