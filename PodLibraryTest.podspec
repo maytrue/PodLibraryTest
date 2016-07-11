@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/maytrue/PodLibraryTest"
   s.license      = "MIT (example)"
   s.author       = { "guowei" => "guowzou@gmail.com" }
-  s.source       = { :git => "https://github.com/maytrue/PodLibraryTest.git", :tag => "v2.0" }
+  s.source       = { :git => "https://github.com/maytrue/PodLibraryTest.git", :tag => "v1.2" }
   s.source_files = "Include/*.h"
   s.vendored_libraries  = 'Library/libPodLibraryTest.a'
 end

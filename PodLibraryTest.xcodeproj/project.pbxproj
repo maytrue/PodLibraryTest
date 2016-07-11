@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E7F7F89F1D334B1200C34AC2 /* SimplePod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7F7F89D1D334B1200C34AC2 /* SimplePod.cpp */; };
-		E7F7F8A01D334B1200C34AC2 /* SimplePod.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E7F7F89E1D334B1200C34AC2 /* SimplePod.hpp */; };
+		E7F7F8A31D337AB600C34AC2 /* SimplePod.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E7F7F8A21D337AB600C34AC2 /* SimplePod.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7F7F8961D334AE000C34AC2 /* libPodLibraryTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPodLibraryTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F7F89D1D334B1200C34AC2 /* SimplePod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplePod.cpp; sourceTree = "<group>"; };
-		E7F7F89E1D334B1200C34AC2 /* SimplePod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SimplePod.hpp; path = ../SimplePod.hpp; sourceTree = "<group>"; };
+		E7F7F8A21D337AB600C34AC2 /* SimplePod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimplePod.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		E7F7F8A11D3378CA00C34AC2 /* Include */ = {
 			isa = PBXGroup;
 			children = (
-				E7F7F89E1D334B1200C34AC2 /* SimplePod.hpp */,
+				E7F7F8A21D337AB600C34AC2 /* SimplePod.hpp */,
 			);
 			path = Include;
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F7F8A01D334B1200C34AC2 /* SimplePod.hpp in Headers */,
+				E7F7F8A31D337AB600C34AC2 /* SimplePod.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
